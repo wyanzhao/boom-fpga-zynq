@@ -17,34 +17,15 @@ common/project/target
 common/lib
 common/Makefrag.pkgs
 
-zedboard/zedboard_rocketchip_*
-zedboard/src/tcl/zedboard_rocketchip_*.tcl
-zedboard/src/tcl/make_bitstream_*.tcl
-zedboard/src/verilog/rocketchip_wrapper.v
-zedboard/src/verilog/Top.*.v
-zedboard/src/verilog/AsyncResetReg.v
-zedboard/src/verilog/plusarg_reader.v
-zedboard/deliver_output
-zedboard/soft_build
+zcu104/zcu104_rocketchip_*
+zcu104/src/tcl/zcu104_rocketchip_*.tcl
+zcu104/src/tcl/make_bitstream_*.tcl
+zcu104/src/verilog/rocketchip_wrapper.v
+zcu104/src/verilog/Top.*.v
+zcu104/src/verilog/AsyncResetReg.v
+zcu104/src/verilog/plusarg_reader.v
+zcu104/deliver_output
+zcu104/soft_build
 
-zc706/zc706_rocketchip_*
-zc706/src/tcl/zc706_rocketchip_*.tcl
-zc706/src/tcl/make_bitstream_*.tcl
-zc706/src/verilog/rocketchip_wrapper.v
-zc706/src/verilog/Top.*.v
-zc706/src/verilog/AsyncResetReg.v
-zc706/src/verilog/plusarg_reader.v
-zc706/deliver_output
-zc706/soft_build
-
-zc706_MIG/zc706_MIG_rocketchip_*
-zc706_MIG/src/tcl/zc706_MIG_rocketchip_*.tcl
-zc706_MIG/src/tcl/make_bitstream_*.tcl
-zc706_MIG/src/verilog/rocketchip_wrapper.v
-zc706_MIG/src/verilog/Top.*.v
-zc706_MIG/src/verilog/AsyncResetReg.v
-zc706_MIG/src/verilog/plusarg_reader.v
-zc706_MIG/deliver_output
-zc706_MIG/soft_build
 
 target
