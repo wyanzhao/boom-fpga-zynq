@@ -9,6 +9,8 @@ plusarg_reader.v
 rocketchip_wrapper.bit
 NA
 
+.vscode/
+
 common/build
 common/target
 common/project/target
