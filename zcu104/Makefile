@@ -7,7 +7,8 @@ BOARD_MODEL = xilinx.com:zcu102:part0:3.2
 PART = xczu9eg-ffvb1156-2-e
 
 TOP_MODULE_PROJECT = zynq.boom
-CONFIG ?= MediumBoomZynqConfig
+CONFIG ?= DCacheBoomZynqConfig
+#CONFIG ?= SmallBoomZynqConfig
 
 include ../common/Makefrag
 

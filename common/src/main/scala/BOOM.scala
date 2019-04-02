@@ -79,3 +79,5 @@ class SmallBoomZynqConfig extends Config(
   new WithBootROM ++ new WithZynqAdapter ++ new _root_.boom.system.SmallBoomConfig)
 class MediumBoomZynqConfig extends Config(
   new WithBootROM ++ new WithZynqAdapter ++ new _root_.boom.system.MediumBoomConfig)
+class DCacheBoomZynqConfig extends Config(
+  new WithBootROM ++ new WithZynqAdapter ++ new _root_.boom.system.DCacheBoomConfig)
