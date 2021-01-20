@@ -81,33 +81,7 @@ Our system will allow you to run a RISC-V binary on a rocket core instantiated o
 
 
 1) <a name="quickinst"></a> Quick Instructions 
-------------------
-_Using prebuilt images, run hello world and/or linux on rocket_
 
-First, enter into the directory for your board (current options are `zybo`, `zedboard`, and `zc706`). From there, run the following to download all of the necessary images:
-
-    $ make fetch-images
-
-If you'd also like to try riscv-linux on rocket, run the following:
-
-    $ make fetch-riscv-linux
-
-Next, insert the SD card on the development system and copy over the images:
-
-    $ make load-sd SD=path_to_mounted_sdcard
-
-Finally, eject the SD card, insert it into the board, set the board's boot jumper to "SD", and power the board on. Connect to the board with an ethernet cable (password is _root_) and run hello world:
-
-    $ ssh root@192.168.1.5
-    root@zynq:~# ./fesvr-zynq pk hello
-    hello!
-
-Awesome! You can now run RISC-V binaries on Rocket. If you'd like to boot linux on the Rocket core, see _[Booting Up and Interacting with the RISC-V Rocket Core](#booting)_.
-
-
-
-2) <a name="bitstream"></a> Pushing Your Rocket Modifications to the FPGA
--------------------------
 
 #### <a name="workspace"></a> Setting Up Your Workspace
 _Requires: Vivado 2018.2 and its settings64.sh and a JVM that can run Scala_
